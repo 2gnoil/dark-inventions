@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Mobile-friendly viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <title>Dark Inventions</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: black;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+    }
+
+    .title-container {
+      padding: 16px 8px 8px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 32px;
+      letter-spacing: 1px;
+    }
+
+    h2 {
+      margin: 6px 0 0;
+      font-size: 14px;
+      font-weight: normal;
+      color: #aaa;
+    }
+
+    /* Prevent accidental scrolling on mobile */
+    canvas {
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="title-container">
+    <h1>Dark Inventions</h1>
+    <h2>A turn-based rhythm duel of timing, tactics, and baroque-metal violence</h2>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3/dist/phaser.js"></script>
+  <script src="main.js?v=<?= Date.now() ?>"></script>
+</body>
+</html>
